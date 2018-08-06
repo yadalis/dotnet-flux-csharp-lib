@@ -1,4 +1,4 @@
-# .net flux c# library for WPF/Windows apps
+ .net flux c# library for WPF/Windows apps
 A tiny but powerful library to build WPF apps implementing FLUX(unidirectional data flow) architecture, inspired by Facebook’s flux architecture and an awesome front-end language named Elm.
 
 # Usage
