@@ -1,8 +1,11 @@
-  # .net flux c# library for WPF/Windows apps
+# .net flux c# library for WPF/Windows apps
 A tiny but powerful library to build WPF apps implementing FLUX(unidirectional data flow) architecture, inspired by Facebook’s flux architecture and an awesome front-end language named Elm.
 
 # Usage
 This library comes in handy if you are looking to implement unidirectional data flow in your WPF or Windows app in C#. This also helps to establish loosely coupled communication between the components of your app, which is an essential feature if you are developing a data-centric app and requires several components to communicate each other to perform a required task.
+	
+![GitHub Logo](https://github.com/yadalis/dotnet-flux-csharp-lib/blob/master/Images/connect_app_pic.png)
+
 	
 # Concept
 	1. A View (WPF XAML) is designed to contain a Store along with its view layout
