@@ -7,7 +7,7 @@ This library comes in handy if you are looking to implement unidirectional data 
 ![GitHub Logo](https://github.com/yadalis/dotnet-flux-csharp-lib/blob/master/Images/connect_app_pic.png)
 
 	
-# Concept
+# Flow
 	1. A View (WPF XAML) is designed to contain a Store along with its view layout
 	
 	2. All Stores contains its own Model and implements Register method to sign up for receiving the 
