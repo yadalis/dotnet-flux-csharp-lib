@@ -22,7 +22,7 @@ This library comes in handy if you are looking to implement unidirectional data 
 	5. The View receives the message sent from its Store and take some actions to re-render
       the view based on the updates done to Model
 
-# Actions:
+# Sample Actions:
     public static class PMActions
     {
         public static void DispatchRemovePMItemUcMessage(PMItem PMItemUc)
@@ -50,7 +50,7 @@ This library comes in handy if you are looking to implement unidirectional data 
         }
     }
 
-# View:
+# Sample View:
     public partial class PMItemsView : UserControl
     {
         private PMItemViewStore _pmItemViewStore { get; }
@@ -76,7 +76,7 @@ This library comes in handy if you are looking to implement unidirectional data 
         }
 	}
 
-# Store:
+# Sample Store:
     public class PMItemViewStore : BaseStore
     {
         public PMItemViewModel ViewModel { get; set; } = new PMItemViewModel();
@@ -118,7 +118,7 @@ This library comes in handy if you are looking to implement unidirectional data 
     }
     
     
-# View-Model
+# Sample View-Model
     public class PMItemViewModel : BaseViewModel
     {
         private ObservableCollection<PreventiveMaintainanceItem> _itemCollection { get; set; }
