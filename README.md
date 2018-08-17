@@ -3,7 +3,9 @@ A tiny but powerful library to build WPF apps implementing FLUX(unidirectional d
 
 # About
 This library comes in handy if you are looking to implement unidirectional data flow in your WPF or Windows app in C#. This also helps to establish loosely coupled communication between the components of your app, which is an essential feature if you are developing a data-centric app and requires several components to communicate each other to perform a required task.
-	
+
+for ex: the below WPF/C# app was developed by the team using this library for inter-component communication.
+
 ![GitHub Logo](https://github.com/yadalis/dotnet-flux-csharp-lib/blob/master/Images/connect_app_pic.png)
 
 	
